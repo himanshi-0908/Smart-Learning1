@@ -1,0 +1,2 @@
+It's a smart Learning platform that help the students for any class from student to teacher. In this web application you can share your thought, make any conversation with our AI. According to your conversation it will help you to provide the best suitable result that helps you a lot.
+In this web you can also create test or question generator you must have to give the topic name, no of questions, and types of question and after you click on submit button. It generate a set of questions
