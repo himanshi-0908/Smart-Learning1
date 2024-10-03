@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0e1111;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    padding: 100px 0;
+    background: url('cuteairobot.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: normal;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image img {
+    width: 350px;
+    height: auto;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #1a1a1a;
+    padding: 100px 0;
+}
+
+.features-text {
+    flex: 1;
+    color: #e0e0e0;
+}
+
+.features-text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.features-text ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.features-text li {
+    margin-bottom: 15px;
+}
+
+.features-text a.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4A90E2;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.features-text a.cta-button:hover {
+    background-color: #357ABD;
+}
+
+.features-image {
+    flex: 1;
+    text-align: right;
+}
+
+.features-image img {
+    width: 300px;
+    height: auto;
+}
